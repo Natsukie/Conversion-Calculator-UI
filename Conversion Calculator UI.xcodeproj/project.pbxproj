@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5530444322D7A96300FB98EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530444222D7A96300FB98EE /* AppDelegate.swift */; };
-		5530444522D7A96300FB98EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530444422D7A96300FB98EE /* ViewController.swift */; };
 		5530444822D7A96300FB98EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5530444622D7A96300FB98EE /* Main.storyboard */; };
 		5530444B22D7A96300FB98EE /* Conversion_Calculator_UI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5530444922D7A96300FB98EE /* Conversion_Calculator_UI.xcdatamodeld */; };
 		5530444D22D7A96300FB98EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5530444C22D7A96300FB98EE /* Assets.xcassets */; };
 		5530445022D7A96300FB98EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5530444E22D7A96300FB98EE /* LaunchScreen.storyboard */; };
 		5530445B22D7A96400FB98EE /* Conversion_Calculator_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530445A22D7A96400FB98EE /* Conversion_Calculator_UIUITests.swift */; };
+		5530446622D7AA7600FB98EE /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530446522D7AA7600FB98EE /* ConverterViewController.swift */; };
+		5530446822D7AA9100FB98EE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530446722D7AA9100FB98EE /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,6 @@
 /* Begin PBXFileReference section */
 		5530443F22D7A96300FB98EE /* Conversion Calculator UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversion Calculator UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5530444222D7A96300FB98EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5530444422D7A96300FB98EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5530444722D7A96300FB98EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5530444A22D7A96300FB98EE /* Conversion_Calculator_UI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conversion_Calculator_UI.xcdatamodel; sourceTree = "<group>"; };
 		5530444C22D7A96300FB98EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		5530445622D7A96400FB98EE /* Conversion Calculator UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversion Calculator UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5530445A22D7A96400FB98EE /* Conversion_Calculator_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion_Calculator_UIUITests.swift; sourceTree = "<group>"; };
 		5530445C22D7A96400FB98EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5530446522D7AA7600FB98EE /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		5530446722D7AA9100FB98EE /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				5530444222D7A96300FB98EE /* AppDelegate.swift */,
-				5530444422D7A96300FB98EE /* ViewController.swift */,
 				5530444622D7A96300FB98EE /* Main.storyboard */,
 				5530444C22D7A96300FB98EE /* Assets.xcassets */,
 				5530444E22D7A96300FB98EE /* LaunchScreen.storyboard */,
 				5530445122D7A96300FB98EE /* Info.plist */,
 				5530444922D7A96300FB98EE /* Conversion_Calculator_UI.xcdatamodeld */,
+				5530446522D7AA7600FB98EE /* ConverterViewController.swift */,
+				5530446722D7AA9100FB98EE /* Converter.swift */,
 			);
 			path = "Conversion Calculator UI";
 			sourceTree = "<group>";
@@ -200,9 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5530444522D7A96300FB98EE /* ViewController.swift in Sources */,
 				5530444322D7A96300FB98EE /* AppDelegate.swift in Sources */,
 				5530444B22D7A96300FB98EE /* Conversion_Calculator_UI.xcdatamodeld in Sources */,
+				5530446822D7AA9100FB98EE /* Converter.swift in Sources */,
+				5530446622D7AA7600FB98EE /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
