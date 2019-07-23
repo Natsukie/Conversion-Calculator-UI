@@ -40,7 +40,8 @@ class ConverterViewController: UIViewController {
             numbers = 0;
         } else if sender.tag == 12 {
           numbers = numbers * -1
-          InputDisplay.text = String(numbers) + converters[choose].input
+          numberOfScreen = String(format:"%.0f",numbers)
+          InputDisplay.text = numberOfScreen + converters[choose].input
           OutputDisplay.text = getNumber(inputNumber: numbers, choose: choose) + converters[choose].output
         } else if sender.tag == 13 {
             let character: Character = "."
@@ -97,7 +98,6 @@ class ConverterViewController: UIViewController {
     
     @IBAction func Choose(_ sender: AnyObject) {
         let alert = UIAlertController(title: "Choose Converter", message: "", preferredStyle: UIAlertController.Style.actionSheet)
-        
         
         alert.addAction(UIAlertAction(title: converters[0].label, style: UIAlertAction.Style.default, handler: { (UIAlertAction) in
             self.choose = 0
